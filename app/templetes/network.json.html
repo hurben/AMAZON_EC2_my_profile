@@ -1,0 +1,94 @@
+{% load staticfiles %}
+
+
+<style>
+    body {
+      font: 14px helvetica neue, helvetica, arial, sans-serif;
+    }
+
+    #cy {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+</style>
+
+
+<script src="{% static 'cytoscape.js/documentation/js/cytoscape.min.js' %}"></script>
+
+<div class="playground experiment_container" id="network" style="height:1000px">
+
+Some<br>
+Some<br>
+Some<br>
+Some<br>
+Some<br>
+
+<div id="cy"></div>
+</div>
+
+
+<div class="playground experiment_container">
+Experiment
+</div>
+
+
+<!--
+<script src="{% static 'playground/code.js' %}"></script>
+-->
+<script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js">
+
+console.log('hi2');
+$.getJSON("/var/www/html/static/playground/user_data.txt", function(data) {
+	console.log(data);
+	var cy = cytoscape({
+	  container: document.getElementById('cy'),
+	  style: cytoscape.stylesheet()
+		.selector('node')
+		  .css({
+			'width': '60px',
+			'height': '60px',
+			'content': 'data(id)',
+			'pie-size': '80%',
+			'pie-1-background-color': '#E8747C',
+			'pie-1-background-size': 'mapData(foo, 0, 10, 0, 100)',
+			'pie-2-background-color': '#74CBE8',
+			'pie-2-background-size': 'mapData(bar, 0, 10, 0, 100)',
+			'pie-3-background-color': '#74E883',
+			'pie-3-background-size': 'mapData(baz, 0, 10, 0, 100)'
+		  })
+		.selector('edge')
+		  .css({
+			'curve-style': 'bezier',
+			'width': 4,
+			'target-arrow-shape': 'triangle',
+			'opacity': 0.5
+		  })
+		.selector(':selected')
+		  .css({
+			'background-color': 'black',
+			'line-color': 'black',
+			'target-arrow-color': 'black',
+			'source-arrow-color': 'black',
+			'opacity': 1
+		  })
+		.selector('.faded')
+		  .css({
+			'opacity': 0.25,
+			'text-opacity': 0
+		  }),
+
+	  layout: {
+		name: 'circle',
+		padding: 10
+	  },
+
+	  ready: function(){
+		window.cy = this;
+	  }
+	});
+});
+
+</script>
