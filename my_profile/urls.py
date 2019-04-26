@@ -20,6 +20,10 @@ from app import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^$', views.main, name='main'),
+
+	#playground page's hierarchy
 	url(r'^playground/', views.playground, name='playground'),
+
 	url(r'^test/', views.test, name='test'),
+
 ]
