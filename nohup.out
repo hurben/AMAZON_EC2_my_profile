@@ -9396,3 +9396,5 @@ Not Found: /index.action
 [27/Apr/2019 06:46:13] "GET /index.action HTTP/1.1" 404 2338
 Not Found: /index.do
 [27/Apr/2019 06:46:14] "GET /index.do HTTP/1.1" 404 2326
+[27/Apr/2019 07:01:36] "GET / HTTP/1.1" 200 28037
+Terminated
