@@ -9286,3 +9286,113 @@ Not Found: /images/cc-bg-1.jpg
 [26/Apr/2019 10:18:32] "GET / HTTP/1.1" 200 28207
 Not Found: /images/cc-bg-1.jpg
 [26/Apr/2019 10:18:32] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[26/Apr/2019 12:14:50] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 13:31:43] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 13:32:05] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 13:41:28] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 14:30:17] "GET / HTTP/1.0" 200 28207
+[26/Apr/2019 14:59:27] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 15:03:36] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 16:28:29] "GET / HTTP/1.0" 200 28207
+Not Found: /manager/html
+[26/Apr/2019 18:22:52] "GET /manager/html HTTP/1.1" 404 2338
+[26/Apr/2019 20:26:10] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 21:17:11] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 22:24:40] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 22:28:51] "GET / HTTP/1.1" 200 28207
+[26/Apr/2019 23:24:10] "GET / HTTP/1.1" 200 28207
+Not Found: /manager/html
+[27/Apr/2019 02:00:27] "GET /manager/html HTTP/1.1" 404 2338
+Not Found: /manager/html
+[27/Apr/2019 02:20:51] "GET /manager/html HTTP/1.1" 404 2338
+[27/Apr/2019 02:31:09] "GET / HTTP/1.1" 200 28207
+[27/Apr/2019 04:18:32] "GET / HTTP/1.1" 200 28207
+[27/Apr/2019 04:38:57] "GET / HTTP/1.1" 200 28207
+Not Found: /manager/html
+[27/Apr/2019 04:51:08] "GET /manager/html HTTP/1.1" 404 2338
+Not Found: /cgi-bin/authLogin.cgi
+[27/Apr/2019 04:59:53] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 2365
+[27/Apr/2019 05:36:33] code 400, message Bad request syntax ('\x05\x01\x00')
+[27/Apr/2019 05:36:33] " " 400 -
+[27/Apr/2019 05:36:39] code 400, message Bad request syntax ('\x05\x01\x00')
+[27/Apr/2019 05:36:39] " " 400 -
+[27/Apr/2019 05:36:45] code 400, message Bad request syntax ('\x05\x01\x00')
+[27/Apr/2019 05:36:45] " " 400 -
+[27/Apr/2019 05:37:30] code 400, message Bad request syntax ('\x04\x01\x00P\x05\xbc\xd2e\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xbc in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[27/Apr/2019 05:37:36] code 400, message Bad request syntax ('\x04\x01\x00P\x05\xbc\xd2e\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xbc in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[27/Apr/2019 05:37:43] code 400, message Bad request syntax ('\x04\x01\x00P\x05\xbc\xd2e\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xbc in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Not Found: /http:/5.188.210.101/echo.php
+[27/Apr/2019 05:38:40] "GET http://5.188.210.101/echo.php HTTP/1.1" 404 1684
+[27/Apr/2019 05:53:38] "GET / HTTP/1.1" 200 28207
+Not Found: /images/cc-bg-1.jpg
+[27/Apr/2019 05:53:39] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[27/Apr/2019 05:53:39] "GET /favicon.ico HTTP/1.1" 404 2376
+[27/Apr/2019 06:13:10] "GET / HTTP/1.1" 200 28207
+Not Found: /images/cc-bg-1.jpg
+[27/Apr/2019 06:13:12] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[27/Apr/2019 06:18:25] "GET / HTTP/1.1" 200 28015
+Not Found: /images/cc-bg-1.jpg
+[27/Apr/2019 06:18:25] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[27/Apr/2019 06:18:26] "GET /favicon.ico HTTP/1.1" 404 2376
+[27/Apr/2019 06:20:57] "GET / HTTP/1.1" 200 28037
+Not Found: /images/cc-bg-1.jpg
+[27/Apr/2019 06:20:57] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[27/Apr/2019 06:20:57] "GET /favicon.ico HTTP/1.1" 404 2376
+[27/Apr/2019 06:21:06] "GET /playground/ HTTP/1.1" 200 6586
+[27/Apr/2019 06:21:11] "POST /playground/ HTTP/1.1" 200 6960
+[27/Apr/2019 06:21:11] "POST /playground/ HTTP/1.1" 200 6586
+[27/Apr/2019 06:21:13] "POST /playground/ HTTP/1.1" 200 6960
+[27/Apr/2019 06:21:13] "POST /playground/ HTTP/1.1" 200 6586
+[27/Apr/2019 06:21:20] "POST /playground/ HTTP/1.1" 200 6960
+[27/Apr/2019 06:21:25] "POST /playground/ HTTP/1.1" 200 6586
+[27/Apr/2019 06:21:27] "POST /playground/ HTTP/1.1" 200 6960
+[27/Apr/2019 06:21:27] "POST /playground/ HTTP/1.1" 200 6586
+[27/Apr/2019 06:21:30] "POST /playground/ HTTP/1.1" 200 6960
+[27/Apr/2019 06:21:31] "POST /playground/ HTTP/1.1" 200 6586
+[27/Apr/2019 06:21:33] "GET / HTTP/1.1" 200 28037
+Not Found: /images/cc-bg-1.jpg
+[27/Apr/2019 06:21:34] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[27/Apr/2019 06:21:37] "GET /playground/ HTTP/1.1" 200 6586
+[27/Apr/2019 06:42:57] "GET / HTTP/1.1" 200 28037
+Not Found: /struts2-rest-showcase/orders.xhtml
+[27/Apr/2019 06:46:13] "GET /struts2-rest-showcase/orders.xhtml HTTP/1.1" 404 2404
+Not Found: /index.action
+[27/Apr/2019 06:46:13] "GET /index.action HTTP/1.1" 404 2338
+Not Found: /index.do
+[27/Apr/2019 06:46:14] "GET /index.do HTTP/1.1" 404 2326
