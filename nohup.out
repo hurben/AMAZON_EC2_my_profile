@@ -9398,3 +9398,197 @@ Not Found: /index.do
 [27/Apr/2019 06:46:14] "GET /index.do HTTP/1.1" 404 2326
 [27/Apr/2019 07:01:36] "GET / HTTP/1.1" 200 28037
 Terminated
+[29/Apr/2019 05:27:29] "GET / HTTP/1.1" 200 28037
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 05:27:30] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[29/Apr/2019 05:27:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Apr/2019 05:40:45] "GET / HTTP/1.1" 200 28037
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 05:40:46] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 05:40:47] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 05:51:57] "GET / HTTP/1.1" 200 28037
+[29/Apr/2019 05:58:16] "GET / HTTP/1.1" 200 28037
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 05:58:16] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[29/Apr/2019 06:32:14] "GET / HTTP/1.1" 200 28037
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 06:32:15] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[29/Apr/2019 07:13:05] "GET / HTTP/1.1" 200 28037
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 07:13:05] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[29/Apr/2019 07:15:26] "GET / HTTP/1.1" 200 28810
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 07:15:27] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 07:15:27] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 07:15:32] "GET / HTTP/1.1" 200 28810
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 07:15:33] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 07:15:33] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 07:17:21] "GET / HTTP/1.1" 200 28832
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 07:17:22] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 07:17:22] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 07:17:32] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 07:17:32] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 07:17:32] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 07:19:01] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 07:19:01] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 07:19:02] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 07:19:18] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 07:19:18] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 07:19:19] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 07:35:27] "GET / HTTP/1.1" 200 28826
+[29/Apr/2019 07:48:48] "GET / HTTP/1.1" 200 28826
+[29/Apr/2019 08:01:02] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 08:01:02] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 08:01:03] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 08:09:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Apr/2019 08:51:49] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 08:51:49] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 08:51:50] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 09:04:05] "GET / HTTP/1.1" 200 28826
+[29/Apr/2019 09:35:26] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 09:35:27] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 09:35:27] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 09:43:15] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 09:43:16] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[29/Apr/2019 09:43:58] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 09:43:59] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 09:43:59] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 09:59:45] "GET / HTTP/1.1" 200 28826
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 09:59:45] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 09:59:46] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 10:01:03] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 10:01:04] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 10:01:04] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 10:01:47] "GET /playground/ HTTP/1.1" 200 6586
+[29/Apr/2019 10:01:49] "POST /playground/ HTTP/1.1" 200 6586
+[29/Apr/2019 10:01:49] "POST /playground/ HTTP/1.1" 200 6960
+[29/Apr/2019 10:01:51] "POST /playground/ HTTP/1.1" 200 6586
+[29/Apr/2019 10:01:53] "POST /playground/ HTTP/1.1" 200 6960
+[29/Apr/2019 10:01:55] "POST /playground/ HTTP/1.1" 200 6586
+[29/Apr/2019 10:57:48] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 11:49:24] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 12:01:26] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 13:00:30] code 400, message Bad request syntax ('?\x15?\xa4\xde*\x17\x19\xb3\xc0\xea\xc0[\xa6\xd2\xba\xa7\xb2\xd0\xccQ\x0f\xb2\x00\xd76\xc7\x07y]\xd5\xf3\xcc\xc7\x88\xcds5')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xa4 in position 4: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Apr/2019 14:02:30] "GET / HTTP/1.1" 200 28843
+Not Found: /getcfg.php
+[29/Apr/2019 14:02:32] "POST /getcfg.php HTTP/1.1" 404 2333
+Not Found: /advance.asp
+[29/Apr/2019 14:02:32] "GET /advance.asp HTTP/1.1" 404 2335
+Not Found: /cgi-bin/DownloadCfg/RouterCfm.DownloadCfg
+[29/Apr/2019 14:02:33] "GET /cgi-bin/DownloadCfg/RouterCfm.DownloadCfg HTTP/1.1" 404 2425
+Not Found: /cgi-bin/DownloadCfg/RouterCfm.cfg
+[29/Apr/2019 14:02:34] "GET /cgi-bin/DownloadCfg/RouterCfm.cfg HTTP/1.1" 404 2401
+[29/Apr/2019 14:17:08] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[29/Apr/2019 14:17:08] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[29/Apr/2019 14:17:10] "GET /favicon.ico HTTP/1.1" 404 2376
+[29/Apr/2019 14:32:51] "GET / HTTP/1.1" 200 28843
+Not Found: /manager/html
+[29/Apr/2019 14:39:36] "GET /manager/html HTTP/1.1" 404 2338
+[29/Apr/2019 16:57:45] "GET / HTTP/1.1" 200 28843
+Not Found: /admin-scripts.asp
+[29/Apr/2019 16:57:46] "GET /admin-scripts.asp HTTP/1.1" 404 2348
+[29/Apr/2019 16:58:06] "GET / HTTP/1.1" 200 28843
+Not Found: /Lists/admin.php
+[29/Apr/2019 17:47:01] "GET /Lists/admin.php HTTP/1.0" 404 2381
+[29/Apr/2019 19:46:38] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 19:49:10] "GET / HTTP/1.0" 200 28843
+[29/Apr/2019 20:13:03] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 20:37:03] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 22:11:40] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 23:04:26] "GET / HTTP/1.1" 200 28843
+[29/Apr/2019 23:36:38] "GET / HTTP/1.1" 200 28843
+[30/Apr/2019 00:49:08] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 00:49:08] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[30/Apr/2019 00:49:09] "GET /favicon.ico HTTP/1.1" 404 2376
+[30/Apr/2019 00:49:23] "GET /playground/ HTTP/1.1" 200 6586
+[30/Apr/2019 00:49:25] "POST /playground/ HTTP/1.1" 200 6586
+[30/Apr/2019 00:49:25] "POST /playground/ HTTP/1.1" 200 6960
+[30/Apr/2019 00:49:26] "POST /playground/ HTTP/1.1" 200 6586
+[30/Apr/2019 00:49:30] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 00:49:30] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 00:49:31] "GET /playground/ HTTP/1.1" 200 6586
+[30/Apr/2019 00:52:01] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 00:52:01] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 00:52:04] "GET /playground/ HTTP/1.1" 200 6586
+[30/Apr/2019 00:52:27] "POST /playground/ HTTP/1.1" 200 6586
+[30/Apr/2019 00:52:28] "POST /playground/ HTTP/1.1" 200 6586
+[30/Apr/2019 00:52:29] "POST /playground/ HTTP/1.1" 200 6960
+[30/Apr/2019 01:20:41] "GET / HTTP/1.1" 200 28843
+[30/Apr/2019 01:33:30] "GET / HTTP/1.1" 200 28843
+[30/Apr/2019 01:42:57] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 01:42:57] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 01:50:43] "GET / HTTP/1.1" 200 28843
+[30/Apr/2019 01:56:54] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 01:56:54] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 01:58:33] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 01:58:34] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 01:58:52] "GET / HTTP/1.1" 200 28843
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 01:58:52] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
