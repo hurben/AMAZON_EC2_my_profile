@@ -9592,3 +9592,630 @@ Not Found: /images/cc-bg-1.jpg
 [30/Apr/2019 01:58:52] "GET / HTTP/1.1" 200 28843
 Not Found: /images/cc-bg-1.jpg
 [30/Apr/2019 01:58:52] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /manager/html
+[30/Apr/2019 04:00:52] "GET /manager/html HTTP/1.1" 404 2338
+[30/Apr/2019 04:13:15] "GET / HTTP/1.1" 200 28842
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 04:13:16] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 04:13:29] "GET / HTTP/1.1" 200 28842
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 04:13:29] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 04:13:43] "GET / HTTP/1.1" 200 28842
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 04:13:43] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 04:38:36] "GET / HTTP/1.1" 200 28840
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 04:38:37] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 05:10:16] "GET / HTTP/1.1" 200 28812
+Not Found: /admin-scripts.asp
+[30/Apr/2019 05:10:17] "GET /admin-scripts.asp HTTP/1.1" 404 2348
+[30/Apr/2019 05:21:17] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 05:21:17] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 05:30:47] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 05:30:47] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[30/Apr/2019 06:03:02] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 06:25:09] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 06:48:36] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 07:06:49] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 07:06:49] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[30/Apr/2019 07:06:49] "GET /favicon.ico HTTP/1.1" 404 2376
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[30/Apr/2019 07:10:50] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 07:16:34] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[30/Apr/2019 07:16:35] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[30/Apr/2019 07:16:35] "GET /favicon.ico HTTP/1.1" 404 2376
+[30/Apr/2019 07:33:05] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 07:55:19] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 08:16:16] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 08:18:14] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 08:40:29] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 09:02:44] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 09:25:58] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 09:29:43] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 09:29:43] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 09:48:13] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 10:10:28] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 10:32:42] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 10:35:01] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 10:47:15] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 10:54:57] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 11:17:12] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 11:39:27] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 11:58:07] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 11:58:08] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 12:02:16] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 12:24:30] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 12:34:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[30/Apr/2019 12:45:37] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 12:46:44] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 13:10:09] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 13:32:24] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 13:54:40] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 14:16:54] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 14:29:11] "GET / HTTP/1.1" 200 28812
+Not Found: /favicon.ico
+[30/Apr/2019 14:29:12] "GET /favicon.ico HTTP/1.1" 404 2335
+[30/Apr/2019 14:39:09] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 15:01:24] "GET / HTTP/1.1" 200 28812
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[30/Apr/2019 15:24:43] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 15:46:57] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 16:09:12] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 16:24:33] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 16:29:35] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 16:31:27] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 16:53:43] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 17:15:58] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 17:16:05] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 17:38:13] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 18:00:28] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 18:23:49] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 18:28:27] "GET / HTTP/1.0" 200 28812
+[30/Apr/2019 18:29:28] "GET / HTTP/1.0" 200 28812
+[30/Apr/2019 18:46:03] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 19:08:19] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 19:09:54] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 19:26:16] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 19:27:18] "GET / HTTP/1.0" 200 28812
+[30/Apr/2019 19:30:34] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 19:52:49] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 19:57:12] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 20:15:05] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 20:37:20] "GET / HTTP/1.1" 200 28812
+Not Found: /manager/html
+[30/Apr/2019 20:53:31] "GET /manager/html HTTP/1.1" 404 2338
+[30/Apr/2019 20:59:35] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 21:10:10] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 21:21:50] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 21:44:05] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 21:46:15] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 21:56:27] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 22:06:20] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 22:29:50] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 22:31:25] "GET / HTTP/1.0" 200 28812
+[30/Apr/2019 22:52:04] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 23:07:29] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 23:14:19] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 23:36:34] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 23:45:44] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 23:56:21] "GET / HTTP/1.1" 200 28812
+[30/Apr/2019 23:57:28] "GET / HTTP/1.1" 200 28812
+Not Found: /manager/html
+[30/Apr/2019 23:57:43] "GET /manager/html HTTP/1.1" 404 2338
+[30/Apr/2019 23:58:48] "GET / HTTP/1.1" 200 28812
+[01/May/2019 00:21:03] "GET / HTTP/1.1" 200 28812
+[01/May/2019 00:43:17] "GET / HTTP/1.1" 200 28812
+[01/May/2019 01:05:31] "GET / HTTP/1.1" 200 28812
+[01/May/2019 01:27:46] "GET / HTTP/1.1" 200 28812
+[01/May/2019 01:50:00] "GET / HTTP/1.1" 200 28812
+[01/May/2019 02:06:34] "GET / HTTP/1.1" 200 28812
+[01/May/2019 02:12:15] "GET / HTTP/1.1" 200 28812
+[01/May/2019 02:34:30] "GET / HTTP/1.1" 200 28812
+[01/May/2019 02:53:47] "GET / HTTP/1.1" 200 28812
+[01/May/2019 02:56:45] "GET / HTTP/1.1" 200 28812
+[01/May/2019 03:19:01] "GET / HTTP/1.1" 200 28812
+[01/May/2019 03:34:07] "GET / HTTP/1.0" 200 28812
+[01/May/2019 03:41:15] "GET / HTTP/1.1" 200 28812
+[01/May/2019 03:52:42] "GET / HTTP/1.1" 200 28812
+[01/May/2019 04:03:31] "GET / HTTP/1.1" 200 28812
+[01/May/2019 04:25:45] "GET / HTTP/1.1" 200 28812
+[01/May/2019 04:49:12] "GET / HTTP/1.1" 200 28812
+[01/May/2019 05:11:27] "GET / HTTP/1.1" 200 28812
+[01/May/2019 05:14:22] "GET / HTTP/1.1" 200 28812
+[01/May/2019 05:33:43] "GET / HTTP/1.1" 200 28812
+[01/May/2019 05:33:55] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 05:33:55] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[01/May/2019 05:33:56] "GET /favicon.ico HTTP/1.1" 404 2376
+[01/May/2019 05:36:08] "GET / HTTP/1.1" 200 28812
+[01/May/2019 05:38:26] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 05:38:26] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[01/May/2019 05:55:58] "GET / HTTP/1.1" 200 28812
+[01/May/2019 06:00:09] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 06:00:09] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[01/May/2019 06:12:11] "GET / HTTP/1.0" 200 28812
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[01/May/2019 06:12:11] "GET / HTTP/1.0" 500 59
+[2019-05-01 06:12:11,476] - Broken pipe from ('167.250.74.14', 6102)
+
+[01/May/2019 06:17:38] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 06:17:38] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[01/May/2019 06:17:51] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 06:17:51] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[01/May/2019 06:17:55] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 06:17:55] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[01/May/2019 06:18:13] "GET / HTTP/1.1" 200 28812
+[01/May/2019 06:40:29] "GET / HTTP/1.1" 200 28812
+[01/May/2019 07:02:44] "GET / HTTP/1.1" 200 28812
+[01/May/2019 07:25:00] "GET / HTTP/1.1" 200 28812
+[01/May/2019 07:47:15] "GET / HTTP/1.1" 200 28812
+[01/May/2019 08:09:31] "GET / HTTP/1.1" 200 28812
+[01/May/2019 08:32:29] "GET / HTTP/1.1" 200 28812
+[01/May/2019 08:54:42] "GET / HTTP/1.1" 200 28812
+Not Found: /.env
+[01/May/2019 08:58:57] "GET /.env HTTP/1.1" 404 2314
+[01/May/2019 09:01:00] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 09:01:00] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[01/May/2019 09:01:41] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[01/May/2019 09:01:42] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[01/May/2019 09:18:34] "GET / HTTP/1.1" 200 28812
+Not Found: /.env.example
+[01/May/2019 09:21:49] "GET /.env.example HTTP/1.1" 404 2338
+[01/May/2019 09:40:49] "GET / HTTP/1.1" 200 28812
+[01/May/2019 10:03:05] "GET / HTTP/1.1" 200 28812
+[01/May/2019 10:25:20] "GET / HTTP/1.1" 200 28812
+[01/May/2019 10:47:35] "GET / HTTP/1.1" 200 28812
+Not Found: /api/.env
+[01/May/2019 10:49:26] "GET /api/.env HTTP/1.1" 404 2326
+[01/May/2019 11:09:51] "GET / HTTP/1.1" 200 28812
+[01/May/2019 11:32:49] "GET / HTTP/1.1" 200 28812
+[01/May/2019 11:55:03] "GET / HTTP/1.1" 200 28812
+[01/May/2019 12:11:24] "GET / HTTP/1.1" 200 28812
+[01/May/2019 12:17:19] "GET / HTTP/1.1" 200 28812
+[01/May/2019 12:34:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[01/May/2019 12:39:35] "GET / HTTP/1.1" 200 28812
+[01/May/2019 13:01:49] "GET / HTTP/1.1" 200 28812
+[01/May/2019 13:24:05] "GET / HTTP/1.1" 200 28812
+[01/May/2019 13:46:20] "GET / HTTP/1.1" 200 28812
+[01/May/2019 14:08:36] "GET / HTTP/1.1" 200 28812
+[01/May/2019 14:30:51] "GET / HTTP/1.1" 200 28812
+[01/May/2019 14:53:07] "GET / HTTP/1.1" 200 28812
+[01/May/2019 15:04:02] "GET / HTTP/1.1" 200 28812
+Not Found: /robots.txt
+[01/May/2019 15:04:02] "GET /robots.txt HTTP/1.1" 404 2332
+Not Found: /sitemap.xml
+[01/May/2019 15:04:02] "GET /sitemap.xml HTTP/1.1" 404 2335
+Not Found: /.well-known/security.txt
+[01/May/2019 15:04:03] "GET /.well-known/security.txt HTTP/1.1" 404 2374
+Not Found: /favicon.ico
+[01/May/2019 15:04:03] "GET /favicon.ico HTTP/1.1" 404 2335
+[01/May/2019 15:06:58] "GET / HTTP/1.1" 200 28812
+[01/May/2019 15:16:26] "GET / HTTP/1.1" 200 28812
+[01/May/2019 15:17:33] "GET / HTTP/1.1" 200 28812
+[01/May/2019 15:38:41] "GET / HTTP/1.1" 200 28812
+[01/May/2019 16:35:00] "GET / HTTP/1.1" 200 28812
+[01/May/2019 17:04:04] "GET / HTTP/1.1" 200 28812
+Not Found: /manager/html
+[01/May/2019 18:10:14] "GET /manager/html HTTP/1.1" 404 2338
+[01/May/2019 19:42:27] "GET / HTTP/1.1" 200 28812
+[01/May/2019 19:49:04] "GET / HTTP/1.1" 200 28812
+[01/May/2019 20:15:38] code 400, message Bad request version ('\x9e!<\x00\x00\x16\x009\x008\x005\x003\x002\x00/\x00\x05\x00\x04\x00\x16\x00\x13\x00')
+[01/May/2019 20:15:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/May/2019 20:27:53] "GET / HTTP/1.0" 200 28812
+[01/May/2019 21:43:46] code 400, message Bad request version ('$p\xe1\x00\x00v\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0')
+[01/May/2019 21:43:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/May/2019 23:20:34] code 400, message Bad request version ('\xfc\x00\x00\x16\x003\x002\x009\x008\x00\x16\x00\x13\x00/\x005\x00')
+[01/May/2019 23:20:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/May/2019 00:10:47] "GET / HTTP/1.1" 200 28812
+[02/May/2019 01:09:53] "GET / HTTP/1.1" 200 28812
+[02/May/2019 01:15:27] "GET / HTTP/1.1" 200 28812
+[02/May/2019 01:16:27] "GET / HTTP/1.0" 200 28812
+[02/May/2019 01:23:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[02/May/2019 01:24:33] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[02/May/2019 01:24:34] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[02/May/2019 01:31:21] "GET / HTTP/1.1" 200 28812
+[02/May/2019 01:47:00] "GET / HTTP/1.1" 200 28812
+[02/May/2019 02:21:56] "GET / HTTP/1.1" 200 28812
+[02/May/2019 02:46:29] "GET / HTTP/1.1" 200 28812
+[02/May/2019 03:17:17] "GET / HTTP/1.1" 200 28812
+[02/May/2019 03:36:07] "GET / HTTP/1.1" 200 28812
+[02/May/2019 03:43:30] "GET / HTTP/1.1" 200 28812
+Not Found: /favicon.ico
+[02/May/2019 03:43:31] "GET /favicon.ico HTTP/1.1" 404 2335
+[02/May/2019 04:20:15] "GET / HTTP/1.1" 200 28812
+[02/May/2019 05:09:13] "GET / HTTP/1.1" 200 28812
+[02/May/2019 05:14:11] "GET / HTTP/1.1" 200 28812
+[02/May/2019 07:32:28] "GET / HTTP/1.1" 200 28812
+[02/May/2019 09:05:56] "GET / HTTP/1.1" 200 28812
+[02/May/2019 09:26:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[02/May/2019 10:12:11] "GET / HTTP/1.1" 200 28812
+[02/May/2019 10:33:16] "GET / HTTP/1.1" 200 28812
+[02/May/2019 12:50:28] "GET / HTTP/1.1" 200 28812
+[02/May/2019 12:58:15] "GET / HTTP/1.1" 200 28812
+[02/May/2019 13:28:00] "GET / HTTP/1.1" 200 28812
+[02/May/2019 14:28:46] "GET / HTTP/1.1" 200 28812
+[02/May/2019 15:33:42] "GET / HTTP/1.1" 200 28812
+[02/May/2019 15:40:08] "GET / HTTP/1.1" 200 28812
+[02/May/2019 15:55:27] "GET / HTTP/1.1" 200 28812
+[02/May/2019 16:02:14] "GET / HTTP/1.1" 200 28812
+[02/May/2019 17:34:23] "GET / HTTP/1.1" 200 28812
+[02/May/2019 17:40:45] "GET / HTTP/1.1" 200 28812
+[02/May/2019 17:51:16] "GET / HTTP/1.1" 200 28812
+[02/May/2019 18:22:45] "GET / HTTP/1.1" 200 28812
+[02/May/2019 19:02:07] "GET / HTTP/1.1" 200 28812
+[02/May/2019 19:27:47] "GET / HTTP/1.0" 200 28812
+[02/May/2019 19:43:01] "GET / HTTP/1.1" 200 28812
+[02/May/2019 19:43:54] "GET / HTTP/1.1" 200 28812
+[02/May/2019 20:32:03] "GET / HTTP/1.0" 200 28812
+[02/May/2019 21:05:08] "GET / HTTP/1.0" 200 28812
+[02/May/2019 23:11:16] "GET / HTTP/1.1" 200 28812
+[02/May/2019 23:50:26] "GET / HTTP/1.1" 200 28812
+[03/May/2019 00:02:44] "GET / HTTP/1.1" 200 28812
+[03/May/2019 00:35:21] "GET / HTTP/1.1" 200 28812
+[03/May/2019 00:55:58] "GET / HTTP/1.1" 200 28812
+[03/May/2019 01:03:02] "GET / HTTP/1.1" 200 28812
+[03/May/2019 02:14:54] "GET / HTTP/1.1" 200 28812
+[03/May/2019 02:45:21] "GET / HTTP/1.1" 200 28812
+[03/May/2019 04:58:40] "GET / HTTP/1.1" 200 28812
+[03/May/2019 05:04:05] "GET / HTTP/1.1" 200 28812
+[03/May/2019 06:19:01] "GET / HTTP/1.1" 200 28812
+[03/May/2019 06:53:27] "GET / HTTP/1.1" 200 28812
+[03/May/2019 07:10:44] "GET / HTTP/1.1" 200 28812
+[03/May/2019 07:13:14] "GET / HTTP/1.1" 200 28812
+[03/May/2019 08:28:01] "GET / HTTP/1.1" 200 28812
+[03/May/2019 09:24:07] "GET / HTTP/1.1" 200 28812
+[03/May/2019 09:49:05] "GET / HTTP/1.1" 200 28812
+[03/May/2019 10:15:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[03/May/2019 11:07:02] "GET / HTTP/1.1" 200 28812
+[03/May/2019 11:33:39] "GET / HTTP/1.1" 200 28812
+[03/May/2019 12:37:16] "GET / HTTP/1.1" 200 28812
+[03/May/2019 13:39:40] "GET / HTTP/1.1" 200 28812
+[03/May/2019 13:56:34] "GET / HTTP/1.1" 200 28812
+Not Found: /admin-scripts.asp
+[03/May/2019 13:56:35] "GET /admin-scripts.asp HTTP/1.1" 404 2348
+[03/May/2019 14:57:05] "GET / HTTP/1.1" 200 28812
+[03/May/2019 15:04:08] "GET / HTTP/1.1" 200 28812
+[03/May/2019 15:22:19] "GET / HTTP/1.1" 200 28812
+[03/May/2019 15:37:30] "GET / HTTP/1.1" 200 28812
+[03/May/2019 17:01:06] "GET / HTTP/1.1" 200 28812
+[03/May/2019 17:13:11] "GET / HTTP/1.1" 200 28812
+[03/May/2019 17:36:48] "GET / HTTP/1.1" 200 28812
+[03/May/2019 17:43:41] "GET / HTTP/1.1" 200 28812
+Not Found: /manager/html
+[03/May/2019 17:59:23] "GET /manager/html HTTP/1.1" 404 2338
+Not Found: /manager/html
+[03/May/2019 18:00:26] "GET /manager/html HTTP/1.1" 404 2338
+[03/May/2019 18:21:33] "GET / HTTP/1.1" 200 28812
+[03/May/2019 20:07:22] "GET / HTTP/1.1" 200 28812
+[03/May/2019 23:56:49] "GET / HTTP/1.1" 200 28812
+[03/May/2019 23:58:28] "GET / HTTP/1.1" 200 28812
+[03/May/2019 23:58:28] "GET / HTTP/1.1" 200 28812
+[04/May/2019 01:14:43] "GET / HTTP/1.1" 200 28812
+Not Found: /manager/html
+[04/May/2019 01:16:21] "GET /manager/html HTTP/1.1" 404 2338
+[04/May/2019 01:32:21] "GET / HTTP/1.0" 200 28812
+[04/May/2019 02:39:18] "GET / HTTP/1.1" 200 28812
+[04/May/2019 03:31:42] "GET / HTTP/1.1" 200 28812
+Not Found: /admin-scripts.asp
+[04/May/2019 03:31:43] "GET /admin-scripts.asp HTTP/1.1" 404 2348
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[04/May/2019 08:54:27] "GET / HTTP/1.1" 200 28812
+Not Found: /manager/html
+[04/May/2019 09:49:14] "GET /manager/html HTTP/1.1" 404 2338
+[04/May/2019 10:07:29] "GET / HTTP/1.1" 200 28812
+[04/May/2019 10:12:32] "GET / HTTP/1.1" 200 28812
+[04/May/2019 10:12:43] "GET / HTTP/1.1" 200 28812
+[04/May/2019 11:50:16] code 400, message Bad request syntax ('\x05\x01\x00')
+[04/May/2019 11:50:16] " " 400 -
+[04/May/2019 11:50:22] code 400, message Bad request syntax ('\x05\x01\x00')
+[04/May/2019 11:50:22] " " 400 -
+[04/May/2019 11:50:29] code 400, message Bad request syntax ('\x05\x01\x00')
+[04/May/2019 11:50:29] " " 400 -
+[04/May/2019 11:51:24] code 400, message Bad request syntax ('\x04\x01\x00P\x05\xbc\xd2e\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xbc in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[04/May/2019 11:51:30] code 400, message Bad request syntax ('\x04\x01\x00P\x05\xbc\xd2e\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xbc in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[04/May/2019 11:51:37] code 400, message Bad request syntax ('\x04\x01\x00P\x05\xbc\xd2e\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xbc in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Not Found: /http:/5.188.210.101/echo.php
+[04/May/2019 11:52:08] "GET http://5.188.210.101/echo.php HTTP/1.1" 404 1684
+[04/May/2019 13:19:57] "GET / HTTP/1.1" 200 28812
+[04/May/2019 13:30:48] "GET / HTTP/1.1" 200 28812
+[04/May/2019 13:32:01] "GET / HTTP/1.1" 200 28812
+[04/May/2019 13:42:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[04/May/2019 13:42:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[04/May/2019 15:38:53] "GET / HTTP/1.1" 200 28812
+[04/May/2019 17:45:06] "GET / HTTP/1.1" 200 28812
+[04/May/2019 18:17:38] "GET / HTTP/1.0" 200 28812
+[04/May/2019 18:43:50] "GET / HTTP/1.1" 200 28812
+[04/May/2019 19:18:58] "GET / HTTP/1.1" 200 28812
+[04/May/2019 20:18:53] "GET / HTTP/1.1" 200 28812
+[04/May/2019 20:56:55] "GET / HTTP/1.1" 200 28812
+[04/May/2019 20:57:13] "GET / HTTP/1.1" 200 28812
+[04/May/2019 23:16:28] "GET / HTTP/1.1" 200 28812
+[04/May/2019 23:17:16] "GET / HTTP/1.1" 200 28812
+Not Found: /admin-scripts.asp
+[04/May/2019 23:17:16] "GET /admin-scripts.asp HTTP/1.1" 404 2348
+[05/May/2019 00:36:45] "GET / HTTP/1.1" 200 28812
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[05/May/2019 03:29:23] "GET / HTTP/1.1" 200 28812
+[05/May/2019 05:53:03] "GET / HTTP/1.1" 200 28812
+[05/May/2019 06:22:39] "GET / HTTP/1.1" 200 28812
+[05/May/2019 07:50:17] "GET / HTTP/1.1" 200 28812
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[05/May/2019 08:44:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 868, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 741, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[05/May/2019 13:51:34] "GET / HTTP/1.0" 200 28812
+[05/May/2019 14:36:38] "GET / HTTP/1.1" 200 28812
+[05/May/2019 15:19:49] "GET / HTTP/1.1" 200 28812
+[05/May/2019 15:50:55] "GET / HTTP/1.1" 200 28812
+[05/May/2019 16:26:51] "GET / HTTP/1.1" 200 28812
+Not Found: /login.rsp
+[05/May/2019 16:41:54] "GET /login.rsp HTTP/1.1" 404 2329
+[05/May/2019 19:03:17] "GET / HTTP/1.1" 200 28812
+[05/May/2019 19:44:12] code 400, message Bad request syntax ('{"method":"login","params":{"login":"45JymPWP1DeQxxMZNJv9w2bTQ2WJDAmw18wUSryDQa3RPrympJPoUSVcFEDv3bhiMJGWaCD4a3KrFCorJHCMqXJUKApSKDV","pass":"xxoo","agent":"xmr-stak-cpu/1.3.0-1.5.0"},"id":1}')
+[05/May/2019 19:44:12] "{"method":"login","params":{"login":"45JymPWP1DeQxxMZNJv9w2bTQ2WJDAmw18wUSryDQa3RPrympJPoUSVcFEDv3bhiMJGWaCD4a3KrFCorJHCMqXJUKApSKDV","pass":"xxoo","agent":"xmr-stak-cpu/1.3.0-1.5.0"},"id":1}" 400 -
+[05/May/2019 19:44:12] "GET / HTTP/1.1" 200 28812
+Not Found: /manager/html
+[05/May/2019 21:19:25] "GET /manager/html HTTP/1.1" 404 2338
+[05/May/2019 21:44:26] "GET / HTTP/1.1" 200 28812
+[05/May/2019 21:53:26] "GET / HTTP/1.0" 200 28812
+Not Found: /manager/html
+[05/May/2019 23:08:11] "GET /manager/html HTTP/1.1" 404 2338
+[05/May/2019 23:53:51] "GET / HTTP/1.0" 200 28812
+Not Found: /manager/html
+[06/May/2019 00:42:16] "GET /manager/html HTTP/1.1" 404 2338
+[06/May/2019 01:30:32] "GET / HTTP/1.1" 200 28812
+[06/May/2019 04:29:22] "GET / HTTP/1.1" 200 28812
+Not Found: /images/cc-bg-1.jpg
+[06/May/2019 04:29:23] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[06/May/2019 04:29:24] "GET /favicon.ico HTTP/1.1" 404 2376
+[06/May/2019 04:34:26] "GET / HTTP/1.1" 200 29081
+Not Found: /images/cc-bg-1.jpg
+[06/May/2019 04:34:26] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[06/May/2019 04:34:26] "GET /favicon.ico HTTP/1.1" 404 2376
+[06/May/2019 04:34:52] "GET / HTTP/1.1" 200 29089
+Not Found: /images/cc-bg-1.jpg
+[06/May/2019 04:34:52] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[06/May/2019 04:34:52] "GET /favicon.ico HTTP/1.1" 404 2376
+[06/May/2019 04:35:00] "GET / HTTP/1.1" 200 29082
+Not Found: /images/cc-bg-1.jpg
+[06/May/2019 04:35:00] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[06/May/2019 04:35:00] "GET /favicon.ico HTTP/1.1" 404 2376
+[06/May/2019 04:35:26] "GET / HTTP/1.1" 200 29082
+Not Found: /images/cc-bg-1.jpg
+[06/May/2019 04:35:26] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[06/May/2019 04:35:27] "GET /favicon.ico HTTP/1.1" 404 2376
+[06/May/2019 04:35:33] "GET / HTTP/1.1" 200 28995
+Not Found: /images/cc-bg-1.jpg
+[06/May/2019 04:35:33] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[06/May/2019 04:35:34] "GET /favicon.ico HTTP/1.1" 404 2376
+[06/May/2019 04:44:09] "GET / HTTP/1.1" 200 28995
+Not Found: /images/cc-bg-1.jpg
+[06/May/2019 04:44:10] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+[06/May/2019 04:54:57] "GET / HTTP/1.1" 200 28995
+[06/May/2019 04:55:47] "GET / HTTP/1.0" 200 28995
+[06/May/2019 05:36:30] "GET / HTTP/1.1" 200 28995
+Not Found: /favicon.ico
+[06/May/2019 05:36:34] "GET /favicon.ico HTTP/1.1" 404 2335
+[06/May/2019 08:50:36] "GET / HTTP/1.1" 200 28995
+[06/May/2019 10:02:24] "GET / HTTP/1.1" 200 28995
