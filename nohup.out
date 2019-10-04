@@ -27698,3 +27698,11 @@ Not Found: /favicon.ico
 [04/Oct/2019 16:08:30] code 400, message Bad request version ('HTTP')
 [04/Oct/2019 16:08:30] "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
 [04/Oct/2019 16:53:19] "GET / HTTP/1.1" 200 31530
+[04/Oct/2019 17:09:35] "GET / HTTP/1.1" 200 31539
+Not Found: /images/cc-bg-1.jpg
+[04/Oct/2019 17:09:35] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
+Not Found: /favicon.ico
+[04/Oct/2019 17:09:36] "GET /favicon.ico HTTP/1.1" 404 2376
+[04/Oct/2019 17:09:57] "GET / HTTP/1.1" 200 31539
+Not Found: /images/cc-bg-1.jpg
+[04/Oct/2019 17:09:57] "GET /images/cc-bg-1.jpg HTTP/1.1" 404 2397
